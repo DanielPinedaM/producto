@@ -1,0 +1,53 @@
+/* -------------------- Tailwind -------------------- */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* -------------------- Reset CSS -------------------- */
+/* https://www.youtube.com/watch?v=K3xmRF8ab1o&t=15927s */
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, serif;
+  box-sizing: border-box !important;
+}
+
+html {
+  font-size: 16px;
+  text-size-adjust: 100% !important;
+  scroll-behavior: smooth !important;
+}
+
+body {
+  width: 100% !important;
+  min-height: 100vh !important;
+  text-rendering: optimizeLegibility !important;
+  overflow-x: hidden;
+}
+
+html,
+body {
+  line-height: 1.2;
+  background-color: rgb(31 41 55);
+}
+
+/* -------------------- Centrar contenido principal de la pagina web (Responsive) -------------------- */
+
+.page_wrap {
+  max-width: min(90vw, 83.25rem);
+}
+
+/* -------------------- Contenido Embebido (Multimedia) Responsive -------------------- */
+/* https://www.youtube.com/watch?v=udGrXWeJp1Y&t=4090s */
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
