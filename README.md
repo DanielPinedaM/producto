@@ -279,7 +279,9 @@ PUT | actualizar producto | [http://localhost:3000/api/products/1](http://localh
 
 ### 6. Consultas MySQL:
 
-Usadas para obtener los datos y crear la base de datos. Estan en el directorio
+Usadas para obtener los datos y crear la base de datos. Estan en el directorio:
+
+[https://github.com/DanielPinedaM/producto/blob/main/database/product_db.sql](https://github.com/DanielPinedaM/producto/blob/main/database/product_db.sql)
 
 ```javascript
 .../src/database/product_db.sql
